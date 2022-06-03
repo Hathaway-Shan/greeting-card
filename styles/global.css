@@ -17,3 +17,10 @@ body {
   justify-items: center;
 }
 
+#chedder {
+  max-height: 340px;
+}
+
+#name-header {
+  text-align: center;
+}
