@@ -12,9 +12,8 @@ body {
 
 #container {
   display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 30px;
   justify-items: center;
 }
 
-#inputs {
-  justify-items: left;
-}
