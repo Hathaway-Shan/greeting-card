@@ -22,5 +22,13 @@ const avatar = document.getElementById('dog-house');
 secondSelect.addEventListener('change', () => {
     avatar.classList.value = '';
     avatar.classList.add(secondSelect.value);
-
 })
+//Export
+const exportButton = document.getElementById('export-button');
+exportButton.addEventListener('click', async () => {
+  const dataUrl = await domtoimage.toPng(avatar);
+  const link = document.createElement('a');
+  link.download = nameInput.value + '.png';
+  link.href = dataUrl;
+  link.click();
+});

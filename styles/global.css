@@ -8,7 +8,10 @@
 
 body {
     background: var(--color-1);
-    padding 10px;
+}
+
+h1 {
+  text-align: center;
 }
 
 #container {
@@ -51,18 +54,18 @@ label, input, select, textarea {
 .space {
   background-color: #240047;
   color: #40FFDC;
-  border: 3px solid #00A9D4;
+  border: 8px solid #00A9D4;
 }
 
 .alpine {
   background-color: #876B53;
   color: #EEE4A9;
-  border: 3px solid #FBCAC5;
+  border: 8px solid #035d03;
   
 }
 
 .sunny {
-  background-color: #E9F2F9;
-  color: #1B325F;
-  border: 3px solid #3A89C9;
+  background-color: #b57515;
+  color: #ebe413;
+  border: 8px solid #3A89C9;
 }
