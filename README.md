@@ -89,3 +89,4 @@ Look at the demo for how to download the greeting card as an image:
 1. Add the `<script>` tag for domtoimage
 1. Add a click event listener to the export button
 1. Look at the code in the demo project, but pass in the element that has your greeting card.
+<image src="greeting-card.jpg" alt="project wireframe">
