@@ -3,11 +3,12 @@
 :root {
   /* css variables with theme colors,
     names have to start with "--" */
-  --color-1: #b9af9e;
+  --color-1: #cbb946;
 }
 
 body {
-    
+    background: var(--color-1);
+    padding 10px;
 }
 
 #container {
@@ -31,7 +32,37 @@ body {
   display: block;
   border-radius: 5px;
   background-color: blueviolet;
-  padding-top: 20px 10px;
+  padding: 30px;
 
 }
 
+label, input, select, textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#dog-house {
+  padding: 60px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.space {
+  background-color: #240047;
+  color: #40FFDC;
+  border: 3px solid #00A9D4;
+}
+
+.alpine {
+  background-color: #876B53;
+  color: #EEE4A9;
+  border: 3px solid #FBCAC5;
+  
+}
+
+.sunny {
+  background-color: #E9F2F9;
+  color: #1B325F;
+  border: 3px solid #3A89C9;
+}
