@@ -8,3 +8,8 @@ firstSelect.addEventListener('change', () => {
     const src = firstSelect.value;
     chedder.src = src;
 })
+const backstoryInput = document.getElementById('backstory-input');
+const backstoryDisplay = document.getElementById('backstory-display');
+backstoryInput = document.addEventListener('input', () => {
+    backstoryDisplay.textContent = backstoryInput.value;
+})

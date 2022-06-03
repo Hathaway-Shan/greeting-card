@@ -28,8 +28,10 @@ body {
 #inputs {
   width: 100%;
   max-width: 400px;
-  display: inline-block;
-  box-sizing: border-box;
+  display: block;
   border-radius: 5px;
   background-color: blueviolet;
+  padding-top: 20px 10px;
+
 }
+
