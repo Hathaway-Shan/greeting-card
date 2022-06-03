@@ -9,3 +9,12 @@
 body {
     
 }
+
+#container {
+  display: grid;
+  justify-items: center;
+}
+
+#inputs {
+  justify-items: left;
+}
